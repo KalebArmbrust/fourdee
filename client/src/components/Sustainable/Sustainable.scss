@@ -1,0 +1,53 @@
+@import 'src/styles/_globalStyles.scss';
+
+.shop {
+    margin-top: 30px;
+    &-carbon {
+        &__count1 {
+            @include desktop {
+                width: 40vw;
+            }
+        }
+        &__count2 {
+            @include desktop {
+                width: 40vw;
+            }
+        }
+    }
+
+    &-clothes {
+        margin-top: 30px;
+        &__sweatpants1 {
+            margin-bottom: 30px;
+            @include tablet {
+                margin-right: 30px;
+            }
+        }
+        &__sweatpants2 {
+            margin-bottom: 30px; 
+        }
+        &__sweatpants3 {
+            @include desktop {
+                display: unset;
+                margin-left: 30px;
+                margin-bottom: 29px;
+            }
+            display: none;
+        }
+        &__sweatpants4 {
+            @include desktop {
+                display: unset;
+                margin-left: 30px;
+                margin-bottom: 29px;
+            }
+            display: none;
+        }
+    }
+
+    &__button {
+        @include tablet {
+            width: 40vw;
+            margin-bottom: 50px;
+        }
+    }
+}

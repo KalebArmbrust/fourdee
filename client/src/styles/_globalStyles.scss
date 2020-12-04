@@ -1,4 +1,4 @@
-/////////////////////////////////////Mixins///////////////////////////////
+//////////////////////////////////Mixins///////////////////////////////
 
 @mixin mobile {
     @media screen and (min-width: $mobile-breakpoint) {
@@ -18,7 +18,39 @@
     }
   }
 
-/******************************** BREAKPOINTS *******************************/
+//////////////////////////////// BREAKPOINTS /////////////////////////////////
 $mobile-breakpoint: 320px;
-$tablet-breakpoint: 768px;
-$desktop-breakpoint: 1200px;
+$tablet-breakpoint: 720px;
+$desktop-breakpoint: 1310px;
+
+////////////////////////////////////FONTS////////////////////////////////
+
+@font-face {
+  font-family: 'd-din';
+  src: url('../assets/fonts/d-din/D-DIN.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'd-din';
+  src: url('../assets/fonts/d-din/D-DIN-Bold.otf') format('opentype');
+  font-weight: 700;
+}
+
+////////////////////////////////////COLORS////////////////////////////////
+$black: black;
+$white: white;
+$grey: grey;
+
+////////////////////////////////////Fonts////////////////////////////////
+$regularFont: 'd-din';
+$font-size-h1: 96px;
+$font-size-h1b: 4.5rem;
+$font-size-h3: 2rem;
+$font-size-h2: 3rem;
+$font-size-p: 1.5rem;
+$counter: 4.25rem;
+$button: 2rem;
+////////////////////////////////////Mobile Fonts////////////////////////////////
+$font-mobile-h2: 3rem;
+$font-mobile-h3: 2rem;
+$font-mobile-p: 1.5rem;

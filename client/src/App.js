@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import Virtual from './components/Virtual/Virtual';
+import Exclusive from './components/Exclusive/Exclusive';
+import Sustainable from './components/Sustainable/Sustainable';
+import Gram from './components/Gram/Gram';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Hero />
+      <Virtual />
+      <Exclusive />
+      <Sustainable/>
+      <Gram/>
     </div>
   );
 }
